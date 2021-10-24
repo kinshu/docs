@@ -44,10 +44,10 @@ It is also possible to create your sidebar explicitly in `sidebars.js`:
 
 ```diff title="sidebars.js"
 module.exports = {
-  tutorialSidebar: [
+  docsSidebar: [
     {
       type: 'category',
-      label: 'Tutorial',
+      label: 'Docs',
 -     items: [...],
 +     items: ['hello'],
     },
