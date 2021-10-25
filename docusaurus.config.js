@@ -1,20 +1,21 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'DwellFi',
+  tagline: 'Decentralized Real Estate Ownership',
+  url: 'https://dwellfi-docs.on.fleek.co/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dwellfi',
+  projectName: 'docs',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'DwellFi',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'logo',
+        src: 'img/dwellfi-logo-light-mode.svg',
+        srcDark: 'img/dwellfi-logo-dark-mode.svg',
       },
       items: [
         {
@@ -25,7 +26,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/dwellfi/docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -47,10 +48,6 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },
@@ -69,12 +66,11 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/dwellfi/docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -83,15 +79,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/dwellfi/docs/edit/main/docs',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/facebook/docusaurus/edit/main/docs/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
