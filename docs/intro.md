@@ -1,35 +1,19 @@
 ---
 sidebar_position: 1
+sidebar_label: Introduction
+
 ---
 
-# Intro
+# DwellFi 👋
 
-Let's discover **Docusaurus in less than 5 minutes**.
+DwellFi is a Decentralized Autonomous Organization developing financial infrastructure for real estate markets.
 
-## Getting Started
+Incentives are built into the platform through primatives such as the [DWELL](#) and [RENT](#) tokens.
 
-Get started by **creating a new site**.
+DwellFi makes rental invesment:
+  - **easy** to manage through automation where it makes sense
+  - **efficient** to utilize by tapping into the DeFi ecosystem
+  - **available** to liquidate through [Automated Market Maker mechanics](#)
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+DwellFi is developing building blocks upon which real estate finance can bloom.
